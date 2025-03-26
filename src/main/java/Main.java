@@ -2,6 +2,8 @@ public class Main {
     public static void main(String[] args) {
         //estrutura de repetição
         // while, for, do while
+        //for (variavel,comparação, operação
+
 
         boolean x = true;
         int contador = 0;
@@ -19,7 +21,8 @@ public class Main {
         int contador1 = 0;
 
         do {
-            if (contador1 < 10){ ;
+            if (contador1 < 10) {
+                ;
 
                 System.out.println("Estou repetindo:Y " + contador1);
                 contador1++;
@@ -28,7 +31,8 @@ public class Main {
             }
         } while (y == true);
 
-
-
+        for (int z=0; z<10; z++){
+            System.out.println(z);
+        }
     }
 }
