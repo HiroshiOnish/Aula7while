@@ -1,18 +1,34 @@
 public class Main {
     public static void main(String[] args) {
-    //estrutura de repetição
-    // while, for, do while
+        //estrutura de repetição
+        // while, for, do while
 
-    boolean x = true;
-    int contador = 0;
+        boolean x = true;
+        int contador = 0;
 
-    while (x == true){
-        if (contador <10){
-            System.out.println("Estou repetindo: "+contador);
-            contador++;
-        }else {
-            x = false;
+        while (x == true) {
+            if (contador < 10) {
+                System.out.println("Estou repetindo:X " + contador);
+                contador++;
+            } else {
+                x = false;
+            }
         }
-    }
+
+        boolean y = false;
+        int contador1 = 0;
+
+        do {
+            if (contador1 < 10){ ;
+
+                System.out.println("Estou repetindo:Y " + contador1);
+                contador1++;
+            } else {
+                y = false;
+            }
+        } while (y == true);
+
+
+
     }
 }
